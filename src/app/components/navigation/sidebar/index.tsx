@@ -38,13 +38,18 @@ const Sidebar = ({
                         </Link>
                     </li>
                     <li>
-                        <Link href="/services" onClick={toggle}>
-                            <p>Services</p>
+                        <Link href="/join" onClick={toggle}>
+                            <p>Join</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/support" onClick={toggle}>
+                            <p>Støtt</p>
                         </Link>
                     </li>
                     <li>
                         <Link href="/contacts" onClick={toggle}>
-                            <p>Contacts</p>
+                            <p>Kontakt</p>
                         </Link>
                     </li>
                 </ul>
