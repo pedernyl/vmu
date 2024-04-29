@@ -2,5 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
 
 

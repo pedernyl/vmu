@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
     return (
       <>
-         <div className="w-full h-20 bg-emerald-800 sticky top-0">
+         <div className="w-full h-20 bg-transparent sticky top-0">
            <div className="container mx-auto px-4 h-full">
                <div className="flex justify-center items-center h-full">
                    <button
@@ -24,7 +24,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                            />
                        </svg>
                    </button>
-                   <ul className="hidden md:flex gap-x-6 text-white">
+                   <ul className="hidden md:flex gap-x-6 text-black">
                        <li>
                            <Link href="/#home">
                                Hjem
