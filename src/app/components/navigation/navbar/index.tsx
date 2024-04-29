@@ -19,29 +19,34 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                            viewBox="0 0 24 24"
                        >
                            <path
-                               fill="#fff"
+                               fill="#000"
                                d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
                            />
                        </svg>
                    </button>
                    <ul className="hidden md:flex gap-x-6 text-white">
                        <li>
-                           <Link href="/about">
+                           <Link href="/#home">
+                               Hjem
+                           </Link>
+                       </li>
+                       <li>
+                           <Link href="/#about">
                                <p>Om</p>
                            </Link>
                        </li>
                        <li>
-                           <Link href="/join">
+                           <Link href="/#join">
                                <p>Join</p>
                            </Link>
                        </li>
                        <li>
-                           <Link href="/support">
+                           <Link href="/#support">
                                <p>Støtt</p>
                            </Link>
                        </li>
                        <li>
-                           <Link href="/contacts">
+                           <Link href="/#contacts">
                                <p>Kontakt</p>
                            </Link>
                        </li>
