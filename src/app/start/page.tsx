@@ -1,7 +1,7 @@
 import React from "react";
 
 const Start = () => {
-  return <div>
+  return <div className="subPage">
     Home
   </div>
 };

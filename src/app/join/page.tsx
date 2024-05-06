@@ -1,7 +1,7 @@
 import React from "react";
 
 const Join = () => {
-  return <div>Join</div>
+  return <div className="subPage">Join</div>
 };
 
 export default Join;

@@ -9,7 +9,10 @@
 .content {
     display: flex;
     justify-content: center;
+}
 
+.subPage {
+    margin-top: 300px;
 }
 
 @media (min-width: 1024px) {
