@@ -5,7 +5,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
     return (
       <>
          <div className="w-full bg-transparent sticky top-0 z-50">
-           <div className="container mx-auto px-4 h-full">
+           <div className="container mx-auto px-4 h-full top-10">
                <div className="flex justify-center items-center h-full">
                    <button
                        type="button"
