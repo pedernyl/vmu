@@ -15,6 +15,15 @@
     margin-top: 30px;
 }
 
+.homePage {
+    margin-top: 10%;
+    background-color: #ffd800;
+    opacity: 0.7;
+    font-weight: bold;
+    border-radius: 90%;
+    border: 3px solid blue;
+}
+
 #home {
     background-image: url('./img/home.jpeg');
     background-size: cover;
