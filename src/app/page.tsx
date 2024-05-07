@@ -7,8 +7,8 @@ import Contacts from "@/app/contacts/page";
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto px-0">
-        <div id="home" className="w-full h-screen content bg-green-300 top-20">
+      <div className="container mx-auto px-0 top-0">
+        <div id="home" className="w-full h-screen content">
           <Start />
         </div>
 
