@@ -24,30 +24,40 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                            />
                        </svg>
                    </button>
-                   <ul className="hidden md:flex gap-x-6 text-black">
+                   <ul className="hidden md:flex gap-x-6 font-black text-3xl">
                        <li>
                            <Link href="/#home">
-                               Hjem
+                               <p className="hover:scale-150">
+                                   Hjem
+                               </p>
                            </Link>
                        </li>
                        <li>
                            <Link href="/#about">
-                               <p>Om</p>
+                               <p className="hover:scale-150">
+                                   Om
+                               </p>
                            </Link>
                        </li>
                        <li>
                            <Link href="/#join">
-                               <p>Join</p>
+                               <p className="hover:scale-150">
+                                   Join
+                               </p>
                            </Link>
                        </li>
                        <li>
                            <Link href="/#support">
-                               <p>Støtt</p>
+                               <p className="hover:scale-150">
+                                   Støtt
+                               </p>
                            </Link>
                        </li>
                        <li>
                            <Link href="/#contacts">
-                               <p>Kontakt</p>
+                               <p className="hover:scale-150">
+                                   Kontakt
+                               </p>
                            </Link>
                        </li>
                    </ul>
