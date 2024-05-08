@@ -26,7 +26,7 @@ const props = {
     <p className="paragraph">Vi inviterer deg til å bli med oss i vårt arbeid med å støtte Ukraina.
       Enten det er som frivillig, deltaker på våre arrangementer, eller gjennom økonomisk støtte,
       kan du være med på å gjøre en forskjell.<br />
-      Finn ut mer her: <Link href="#support">Støtte</Link>
+      Finn ut mer her: <Link href="#join" className="underline">Bli med</Link>
     </p>
   </div>
 }

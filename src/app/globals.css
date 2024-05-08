@@ -89,6 +89,11 @@ ul.inline li {
     list-style-position: inside;
 }
 
+a.underline {
+    text-decoration: underline;
+
+}
+
 @media (min-width: 1024px) {
     .container {
         max-width: 100%;

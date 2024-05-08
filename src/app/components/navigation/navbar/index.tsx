@@ -42,7 +42,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                        <li>
                            <Link href="/#join">
                                <p className="hover:scale-150">
-                                   Join
+                                   Bli med
                                </p>
                            </Link>
                        </li>
