@@ -12,7 +12,7 @@ export default function Home() {
           <Start />
         </div>
 
-        <div id="about" className="w-full h-screen content bg-blue-600">
+        <div id="about" className="w-full">
             <About />
         </div>
 

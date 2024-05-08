@@ -12,7 +12,7 @@
 }
 
 .subPage {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .homePage {
@@ -21,7 +21,8 @@
     opacity: 0.7;
     font-weight: bold;
     border-radius: 90%;
-    border: 3px solid blue;
+    border: 3px solid #0054b1;
+    text-align: center;
 }
 
 #home {
@@ -32,11 +33,69 @@
     margin-top: -20px;
 }
 
+#about {
+
+}
+
+.flagFlexContainer {
+    display: flex;
+}
+
+.flagFlexBlue {
+    background-color: #0054b1;
+    width: 20%;
+}
+
+.flagFlexOrange {
+    background-color: #ffd800;
+    width: 20%
+}
+
+.flagFlexContent {
+    width: 60%;
+    text-align: center;
+}
+
+.heading1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.heading2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 0 0 10px;
+}
+
+.paragraph {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.inline li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
 @media (min-width: 1024px) {
     .container {
         max-width: 100%;
     }
 }
 
+@media (max-width: 768px) {
+    .homePage, .text-6xl  {
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
 
 
