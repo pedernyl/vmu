@@ -1,9 +1,9 @@
 import React from "react";
-const FlagFlex = ( { text, flagLeft }) => {
+const FlagFlex = ( { text, flagLeft, flagRight }) => {
   return <div className="flagFlexContainer">
     <div className="flagFlexLeft" style={{backgroundColor: flagLeft}}></div>
     <div className="flagFlexContent">{ text }</div>
-    <div className="flagFlexOrange"></div>
+    <div className="flagFlexRight" style={{ backgroundColor: flagRight}}></div>
   </div>
 };
 

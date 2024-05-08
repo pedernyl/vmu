@@ -32,7 +32,7 @@ const props = {
 }
 
 const About = () => {
-  return <FlagFlex text={props.text} flagLeft="#0054b1" />
+  return <FlagFlex text={props.text} flagLeft="#0054b1" flagRight="#ffd800" />
 };
 
 export default About;
