@@ -3,7 +3,7 @@ import FlagFlex from "@/app/flagFlex/page";
 import Link from "next/link";
 
 const props = {
-  text: <div className="subPage"><div className="heading1">Om</div>
+  text: <div className="subPage"><h2 className="heading2">Om</h2>
     <div className="heading2">Vår Misjon</div>
     <p className="paragraph">Vår misjon er å samle skientusiaster fra hele verden for å vise solidaritet med Ukraina i
       deres kamp for frihet, rettferdighet og fred. Gjennom våre arrangementer og aktiviteter
