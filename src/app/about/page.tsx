@@ -28,11 +28,17 @@ const props = {
       kan du være med på å gjøre en forskjell.<br />
       Finn ut mer her: <Link href="#join" className="underline">Bli med</Link>
     </p>
-  </div>
+  </div>,
+  flagLeft: '#0054b1',
+  flagRight: '#ffd800'
 }
 
 const About = () => {
-  return <FlagFlex text={props.text} flagLeft="#0054b1" flagRight="#ffd800" />
+  return <FlagFlex
+      text={props.text}
+      flagLeft={props.flagLeft}
+      flagRight={props.flagRight}
+  />
 };
 
 export default About;

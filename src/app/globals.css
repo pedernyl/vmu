@@ -9,10 +9,12 @@
 .content {
     display: flex;
     justify-content: center;
+    border: #3b5aa3 solid 1px;
 }
 
 .subPage {
     margin-top: 50px;
+
 }
 
 .homePage {
@@ -37,8 +39,14 @@
 
 }
 
+#join {
+    padding-left: 15px;
+    text-align: center;
+}
+
 .flagFlexContainer {
     display: flex;
+    width: 100%;
 }
 
 .flagFlexLeft {
@@ -52,6 +60,15 @@
 .flagFlexContent {
     width: 60%;
     text-align: center;
+}
+
+.joinAction {
+    background-color: black;
+    width: 50%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .heading1 {
@@ -72,7 +89,7 @@
 }
 
 .paragraph {
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
      margin-bottom: 10px;
@@ -92,6 +109,27 @@ a.underline {
 
 }
 
+.joinContainer {
+    display: flex;
+    margin: 30px;
+}
+
+.colorBox {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    text-align: center;
+}
+
+.blueBox {
+    background-color: #0054b1;
+    color: white;
+}
+
+.yBox {
+    background-color: #ffd800;
+}
+
 @media (min-width: 1024px) {
     .container {
         max-width: 100%;
@@ -104,6 +142,22 @@ a.underline {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+
+    .joinContainer {
+        flex-direction: column;
+    }
+
+    .mobileHidden {
+        display: none;
+    }
+
+    .colorBox {
+        height: 30px;
+    }
+
+    .joinAction {
+        width: 80%;
     }
 }
 

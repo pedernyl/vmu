@@ -16,7 +16,7 @@ export default function Home() {
             <About />
         </div>
 
-        <div id="join" className="w-full h-screen content bg-red-800">
+        <div id="join" className="w-full h-screen content">
           <Join />
         </div>
 
