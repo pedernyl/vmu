@@ -24,7 +24,7 @@ export default function Home() {
           <Support />
         </div>
 
-        <div id="contacts" className="w-full h-screen content bg-cyan-500 hover:bg-cyan-600">
+        <div id="contacts" className="w-full h-auto content bg-black text-white">
           <Contacts />
         </div>
 
