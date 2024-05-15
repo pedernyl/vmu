@@ -66,7 +66,7 @@ const Join = () => {
         </div>
     </div>
     <div className="joinAction">
-      Betala 100NOK till 4214 16 82347<br />
+      Betal medlemskontingent 100NOK till kontonummer 4214 16 82347<br />
       Husk at skriv navn og epost
     </div>
   </div>
