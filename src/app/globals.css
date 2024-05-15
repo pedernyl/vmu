@@ -144,6 +144,14 @@ a.underline {
     margin-right: 100px;
 }
 
+.norway {
+    background-image: url('./img/Flag_of_Norway.svg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid pink;
+}
+
 @media (min-width: 1024px) {
     .container {
         max-width: 100%;
