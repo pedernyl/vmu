@@ -188,6 +188,18 @@ a.underline {
         flex-direction: column;
     }
 
+    .contactContainer {
+        margin-top: 100px;
+    }
+
+    .supportHeader, .supportFooter {
+        height: 150px;
+    }
+
+    .email {
+        margin: 0;
+    }
+
     .mobileHidden {
         display: none;
     }
