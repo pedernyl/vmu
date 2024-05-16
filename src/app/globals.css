@@ -137,11 +137,14 @@ a.underline {
 
 .contactContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
 }
 
 .email {
-    margin-right: 100px;
+    margin-right: 80%;
 }
 
 .norway {
