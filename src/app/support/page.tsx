@@ -15,14 +15,14 @@ const Support = () => {
         </div>
         <SupportImage />
         <div className="supportFooter">
-            <div className="beMember">
+            <div className="beMember mobileHidden">
                 <h3 className="heading3">Bli medlem</h3>
                 Betal medlemskontingent 100NOK till kontonummer 4214 16 82347<br />
                 Husk at skriv navn og epost
             </div>
             <div className="gepenger">
                 <h3 className="heading3">Ge gåve</h3>
-                Sett inn valfri belopp på kontonummer: 4214 16 82347
+                <p className="mobileHidden">Sett inn valfri belopp på </p>kontonummer: 4214 16 82347
             </div>
         </div>
       </div>

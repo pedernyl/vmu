@@ -23,6 +23,7 @@ export default function RootLayout({
             name="format-detection"
             content="telephone=no, date=no, email=no, address=no"
         />
+      <title>Ski-VM Trondheim solidaritet med Ukraina</title>
     </head>
     <body className={inter.className}>
     <Navigation/>

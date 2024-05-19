@@ -193,7 +193,7 @@ a.underline {
     }
 
     .supportHeader, .supportFooter {
-        height: 200px;
+        height: 150px;
     }
 
     .email {
@@ -209,6 +209,10 @@ a.underline {
     }
 
     .joinAction {
+        width: 80%;
+    }
+
+    .beMember, .gepenger {
         width: 80%;
     }
 }
