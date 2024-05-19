@@ -190,6 +190,13 @@ a.underline {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     /* CSS rules for tablets go here */
+    .homePage, .text-6xl  {
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
     .desktopHide {
         display: none;
     }
@@ -209,7 +216,10 @@ a.underline {
 
     .contactContainer {
         margin-top: 100px;
+    }
 
+    .email {
+        margin-right: 0px;
     }
 
 }
