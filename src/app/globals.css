@@ -184,16 +184,16 @@ a.underline {
         text-align: center;
     }
 
-    .joinContainer, .contactContainer {
+    .joinContainer, .contactContainer, .supportFooter {
         flex-direction: column;
     }
 
     .contactContainer {
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .supportHeader, .supportFooter {
-        height: 150px;
+        height: 200px;
     }
 
     .email {

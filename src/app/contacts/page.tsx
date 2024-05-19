@@ -7,7 +7,7 @@ const Contacts = () => {
         Epost: info@ukrainasolidaritet.no
       </div>
       <div className="orgNumber">
-        Organisasjonsnummer: 34 34 34
+        Organisasjonsnummer: 932968835
       </div>
     </div>
 
