@@ -18,10 +18,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navigation />
-        {children}
-      </body>
+    <head>
+        <meta
+            name="format-detection"
+            content="telephone=no, date=no, email=no, address=no"
+        />
+    </head>
+    <body className={inter.className}>
+    <Navigation/>
+    {children}
+    </body>
     </html>
   );
 }
