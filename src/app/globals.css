@@ -175,8 +175,16 @@ a.underline {
         max-width: 100%;
     }
 
-    .mobileHiddenSupport {
+    .mobileHidden {
         display: none;
+    }
+
+    .joinContainer {
+        flex-direction: column;
+    }
+
+    .colorBox {
+        height: 30px;
     }
 }
 
@@ -198,10 +206,11 @@ a.underline {
 
     .joinContainer, .contactContainer, .supportFooter {
         flex-direction: column;
+        align-items: center;
     }
 
     .contactContainer {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     .supportHeader, .supportFooter {
@@ -224,9 +233,7 @@ a.underline {
         width: 80%;
     }
 
-    .beMember, .gepenger {
-        width: 80%;
-    }
+
 }
 
 
