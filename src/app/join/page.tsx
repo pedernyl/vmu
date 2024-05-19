@@ -41,25 +41,25 @@ const Join = () => {
     <div className="joinContainer">
       <div className="blueBox colorBox">
         <strong>Solidaritet og Støtte</strong><br />
-        <p className="mobileHidden">Ukraina har stått overfor betydelige utfordringer de siste årene, og det er på tide å vise vår støtte og
+        <p className="mobileHidden tabletHidden">Ukraina har stått overfor betydelige utfordringer de siste årene, og det er på tide å vise vår støtte og
         solidaritet. Ved å bli med i vår bevegelse, sender du et sterkt budskap om enhet og støtte til det ukrainske folket.
         </p>
       </div>
       <div className="yBox colorBox">
         <strong>Bevissthet og Handling</strong><br />
-        <p className="mobileHidden">Ved å delta i solidaritetsaktiviteter under Ski-VM, hjelper du med å øke bevisstheten om situasjonen i Ukraina
+        <p className="mobileHidden tabletHidden">Ved å delta i solidaritetsaktiviteter under Ski-VM, hjelper du med å øke bevisstheten om situasjonen i Ukraina
         og oppfordrer til handling. Sammen kan vi gjøre en forskjell og bidra til å skape positive endringer.
         </p>
       </div>
       <div className="blueBox colorBox">
         <strong>Samfunnssamarbeid</strong><br />
-        <p className="mobileHidden">Bli en del av et samfunn av enkeltpersoner som deler ditt ønske om å støtte Ukraina. Sammen kan vi organisere
+        <p className="mobileHidden tabletHidden">Bli en del av et samfunn av enkeltpersoner som deler ditt ønske om å støtte Ukraina. Sammen kan vi organisere
         arrangementer, innsamlingsaksjoner og andre initiativer for å vise vår støtte på en meningsfull måte.
         </p>
       </div>
       <div className="yBox colorBox">
         <strong>Internasjonal Solidaritet</strong><br />
-        <p className="mobileHidden">
+        <p className="mobileHidden tabletHidden">
           Vår solidaritet med Ukraina er en del av en større internasjonal bevegelse for fred, rettferdighet og
         menneskerettigheter. Ved å bli med oss, blir du en del av denne viktige kampen for å sikre en bedre fremtid for alle.
         </p>
