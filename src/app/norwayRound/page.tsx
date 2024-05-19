@@ -8,6 +8,8 @@ const NorwayRound = () => {
           alt="norge rund"
           height={100}
           width={100}
+          layout="fixed"
+          objectFit="cover"
       />
 
   )
