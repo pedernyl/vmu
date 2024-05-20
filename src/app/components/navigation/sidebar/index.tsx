@@ -24,22 +24,22 @@ const Sidebar = ({
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about" onClick={toggle}>
+                        <Link href="/#about" onClick={toggle}>
                             <p>Om</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/join" onClick={toggle}>
+                        <Link href="/#join" onClick={toggle}>
                             <p>Bli med</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/support" onClick={toggle}>
+                        <Link href="/#support" onClick={toggle}>
                             <p>Støtt</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contacts" onClick={toggle}>
+                        <Link href="/#contacts" onClick={toggle}>
                             <p>Kontakt</p>
                         </Link>
                     </li>
