@@ -137,15 +137,16 @@ a.underline {
 }
 
 .contactContainer {
-    display: flex;
+    /*display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;*/
     height: 100px;
     width: 100%;
 }
 
 .email {
-    margin-right: 80%;
+   /* margin-right: 80%;*/
+
 }
 
 .norway {
@@ -171,7 +172,7 @@ a.underline {
     height: 80%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
     .container {
         max-width: 100%;
     }
@@ -187,7 +188,7 @@ a.underline {
 
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1080px) {
     /* CSS rules for tablets go here */
     .homePage, .text-6xl  {
         font-size: 1.5rem;
@@ -218,7 +219,7 @@ a.underline {
     }
 
     .email {
-        margin-right: 0px;
+        margin-top: 10px;
     }
 
 }
@@ -245,7 +246,7 @@ a.underline {
     }
 
     .email {
-        margin: 0;
+        margin-top: 10px;
     }
 
     .mobileHidden {
