@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import FlagFlex from "@/app/flagFlex/page";
 
 const props = {
   text: <div className="subPage">

@@ -1,5 +1,5 @@
 import Start from "@/app/start/page";
-import About from "@/app/about/page";
+import About from "@/Components/about/page";
 import Join from "@/app/join/page";
 import Support from "@/app/support/page";
 import Contacts from "@/app/contacts/page";
