@@ -1,8 +1,8 @@
-import Start from "@/app/start/page";
+import Start from "@/Components/start/page";
 import About from "@/Components/about/page";
-import Join from "@/app/join/page";
-import Support from "@/app/support/page";
-import Contacts from "@/app/contacts/page";
+import Join from "@/Components/join/page";
+import Support from "@/Components/support/page";
+import Contacts from "@/Components/contacts/page";
 
 export default function Home() {
   return (

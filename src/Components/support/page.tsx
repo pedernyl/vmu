@@ -1,7 +1,7 @@
 import React from "react";
-import UkraineRound from "@/app/ukraineRound/page";
-import NorwayRound from "@/app/norwayRound/page";
-import SupportImage from "@/app/supportImage/page";
+import UkraineRound from "@/Components/ukraineRound/page";
+import NorwayRound from "@/Components/norwayRound/page";
+import SupportImage from "@/Components/supportImage/page";
 
 const Support = () => {
   return (
