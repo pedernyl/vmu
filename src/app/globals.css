@@ -183,6 +183,10 @@ a.underline {
         margin-right: auto;
     }
 
+    .text-6xl {
+        font-size: 4rem;
+    }
+
 
 
 
@@ -259,6 +263,22 @@ a.underline {
 
     .joinAction {
         width: 80%;
+    }
+
+    .flagFlexLeft, .flagFlexRight {
+        width: 10%;
+    }
+
+    .flagFlexContainer {
+
+    }
+
+    .flagFlexContent {
+        width: 90%;
+    }
+
+    #about {
+
     }
 
 
