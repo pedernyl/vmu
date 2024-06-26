@@ -1,33 +1,5 @@
 import React from "react";
 
-const props = {
-  text: <div className="subPage">
-    <h2 className="heading2">Bli med i Ski-VM Solidaritet med Ukraina!</h2>
-    <p className="paragraph">Er du klar til å vise din støtte og solidaritet med Ukraina under Ski-VM? Bli med oss i en
-      bevegelse som går utover sporten, og vis verden at vi står sammen i disse utfordrende tider.
-    </p>
-    <h3 className="heading3">Hvorfor Bli Med i Solidaritet med Ukraina?</h3>
-    <ol className="list-decimal list-inside">
-      <li>
-
-      </li>
-      <li>
-
-
-      </li>
-      <li>
-
-      </li>
-      <li>
-        <strong>Internasjonal Solidaritet: </strong>
-
-      </li>
-    </ol>
-    <h3 className="heading3">Bli Med i Solidaritet med Ukraina under Ski-VM!</h3>
-  </div>,
-  flagLeft: '#be0027',
-  flagRight: '#3b5aa3'
-}
 
 const Join = () => {
   return <div className="subPage">

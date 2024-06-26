@@ -187,6 +187,10 @@ a.underline {
         font-size: 4rem;
     }
 
+    .desktopHide {
+        display: none;
+    }
+
 
 
 
