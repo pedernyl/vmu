@@ -3,8 +3,8 @@ import Social from "../social/page";
 
 const Contacts = () => {
   return <div className="subPage">
-    <Social />
     <div className="contactContainer">
+      <Social />
       <div className="email">
         Epost: info@ukrainasolidaritet.no
       </div>
