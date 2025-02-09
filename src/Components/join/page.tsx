@@ -3,7 +3,6 @@ import React from "react";
 
 const Join = () => {
   return <div className="subPage">
-    <h2 className="heading2">Bli med i Ski-VM Solidaritet med Ukraina!</h2>
       <p className="paragraph">Er du klar til å vise din støtte og solidaritet med Ukraina under Ski-VM?<br />
         Bli med oss i en
         bevegelse som går utover sporten, og vis verden at vi står sammen i disse utfordrende tider.

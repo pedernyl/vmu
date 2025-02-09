@@ -9,7 +9,7 @@ const Support = () => {
       <div className="subPage w-full flex-col justify-center">
         <div className="supportHeader">
           <NorwayRound />
-            <h2 className="heading2 mobileHidden">Nordmenn står enade med Ukraina</h2>
+            <h2 className="heading2 mobileHidden">Vi står enade med Ukraina</h2>
           <h2 className="heading2 desktopHide">Støtt</h2>
           <UkraineRound/>
         </div>
