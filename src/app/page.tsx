@@ -11,11 +11,7 @@ export default function Home() {
         <div id="home" className="w-full h-screen content">
           <Start />
         </div>
-
-        <div id="about" className="w-full">
-            <About />
-        </div>
-
+        
         <div id="join" className="w-full h-screen content">
           <Join />
         </div>
