@@ -13,4 +13,4 @@ const Social = () => {
     );
 };
 
-export default Social;''
+export default Social;

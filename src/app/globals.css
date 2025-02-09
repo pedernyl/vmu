@@ -47,6 +47,7 @@
 #contacts {
     display: flex;
     justify-content: center;
+    background-color: #ffd800;
 }
 
 .flagFlexContainer {
@@ -157,7 +158,7 @@ a.underline {
     border: 1px solid pink;
 }
 
-.supportHeader, .supportFooter {
+.supportHeader {
     display: flex;
     background-color: #0054b1;
     width: 100%;
@@ -165,6 +166,12 @@ a.underline {
     justify-content: space-evenly;
     align-items: center;
     color: white;
+}
+
+.supportFooter {
+    background-color: palegoldenrod;
+    width: 100%;
+    height: 100px;
 }
 
 .supportImage {

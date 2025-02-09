@@ -16,7 +16,7 @@ export default function Home() {
           <Support />
         </div>
 
-        <div id="contacts" className="w-full h-auto content bg-black text-white">
+        <div id="contacts" className="w-full h-auto content">
           <Contacts />
         </div>
 
