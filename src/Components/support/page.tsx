@@ -16,9 +16,7 @@ const Support = () => {
         <div id="join" className="w-full h-screen content">
           <Join />
         </div>
-        <div className="supportFooter">
-            
-        </div>
+        
       </div>
   )
 };
