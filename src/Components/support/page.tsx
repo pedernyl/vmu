@@ -2,6 +2,7 @@ import React from "react";
 import UkraineRound from "@/Components/ukraineRound/page";
 import NorwayRound from "@/Components/norwayRound/page";
 import SupportImage from "@/Components/supportImage/page";
+import Join from "../join/page";
 
 const Support = () => {
   return (
@@ -12,7 +13,9 @@ const Support = () => {
           <h2 className="heading2 desktopHide">Støtt</h2>
           <UkraineRound/>
         </div>
-        <SupportImage />
+        <div id="join" className="w-full h-screen content">
+          <Join />
+        </div>
         <div className="supportFooter">
             <div className="beMember mobileHidden">
                 <h3 className="heading3">Bli medlem</h3>

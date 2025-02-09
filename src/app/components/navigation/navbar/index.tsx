@@ -33,13 +33,6 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                            </Link>
                        </li>
                        <li>
-                           <Link href="/#join">
-                               <p className="hover:scale-150">
-                                   Bli med
-                               </p>
-                           </Link>
-                       </li>
-                       <li>
                            <Link href="/#support">
                                <p className="hover:scale-150">
                                    Støtt

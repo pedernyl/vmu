@@ -11,10 +11,6 @@ export default function Home() {
         <div id="home" className="w-full h-screen content">
           <Start />
         </div>
-        
-        <div id="join" className="w-full h-screen content">
-          <Join />
-        </div>
 
         <div id="support" className="w-full h-screen content">
           <Support />
