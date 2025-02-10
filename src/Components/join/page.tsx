@@ -1,36 +1,123 @@
 import React from "react";
+import Link from "next/link";
+
 
 
 const Join = () => {
   return <div className="subPage">
-      <p className="paragraph">Er du klar til å vise din støtte og solidaritet med Ukraina under Ski-VM?<br />
-        Bli med oss i en
-        bevegelse som går utover sporten, og vis verden at vi står sammen i disse utfordrende tider.
+      <p className="paragraph">
+      Under Ski-VM i Trondheim har du en unik mulighet til å vise solidaritet med det ukrainske folket.<br /> 
+      Ved å gi en donasjon til en av disse fire organisasjonene, kan du bidra til livsviktig hjelp og støtte til 
+      mennesker som er berørt av krigen.<br />
+      <br />
+      Velg en organisasjon og gi din støtte:
       </p>
     <div className="joinContainer">
       <div className="blueBox colorBox">
-        <strong>Solidaritet og Støtte</strong><br />
-        <p className="mobileHidden tabletHidden">Ukraina har stått overfor betydelige utfordringer de siste årene, og det er på tide å vise vår støtte og
-        solidaritet. Ved å bli med i vår bevegelse, sender du et sterkt budskap om enhet og støtte til det ukrainske folket.
+        <strong>Røde Kors</strong><br />
+        <p className="mobileHidden tabletHidden">
+        Røde Kors arbeid i Ukraina&nbsp; 
+        <Link 
+          href="https://www.rodekors.no/vart-arbeid/internasjonal/europa/ukraina"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>  
+        </Link>
+        <br /><br />
+        Gi din støtte til Røde Kors&nbsp;
+        <Link
+          href="https://www.rodekors.no/stott-arbeidet/"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>  
         </p>
       </div>
       <div className="yBox colorBox">
-        <strong>Bevissthet og Handling</strong><br />
-        <p className="mobileHidden tabletHidden">Ved å delta i solidaritetsaktiviteter under Ski-VM, hjelper du med å øke bevisstheten om situasjonen i Ukraina
-        og oppfordrer til handling. Sammen kan vi gjøre en forskjell og bidra til å skape positive endringer.
+        <strong>Norsk Folkehjelp</strong><br />
+        <p className="mobileHidden tabletHidden">
+          Norsk Folkehjelps arbeid i Ukraina
+          &nbsp;
+        <Link
+          href="https://folkehjelp.no/miner-og-eksplosiver/her-jobber-vi-med-mine-og-eksplosivrydding/ukraina"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>
+        <br /><br />
+        Gi din støtte til Norsk Folkehjelp&nbsp;
+        <Link
+          href="https://folkehjelp.no/"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>
         </p>
       </div>
       <div className="blueBox colorBox">
-        <strong>Samfunnssamarbeid</strong><br />
-        <p className="mobileHidden tabletHidden">Bli en del av et samfunn av enkeltpersoner som deler ditt ønske om å støtte Ukraina. Sammen kan vi organisere
-        arrangementer, innsamlingsaksjoner og andre initiativer for å vise vår støtte på en meningsfull måte.
+        <strong>Kirkens nødhjelp</strong><br />
+        <p className="mobileHidden tabletHidden">
+        Kirkens nødhjelps arbeid i Ukraina
+          &nbsp;
+        <Link
+          href="https://www.kirkensnodhjelp.no/her-jobber-vi/ukraina"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>
+        <br /><br />
+        Gi din støtte til Kirkens nødhjelp&nbsp;
+        <Link
+          href="https://www.kirkensnodhjelp.no/gi-engangsdonasjon"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>
         </p>
       </div>
       <div className="yBox colorBox">
-        <strong>Internasjonal Solidaritet</strong><br />
+        <strong>SOS Barnebyer</strong><br />
         <p className="mobileHidden tabletHidden">
-          Vår solidaritet med Ukraina er en del av en større internasjonal bevegelse for fred, rettferdighet og
-        menneskerettigheter. Ved å bli med oss, blir du en del av denne viktige kampen for å sikre en bedre fremtid for alle.
+        SOS barnebyers arbeid i Ukraina
+          &nbsp;
+        <Link
+          href="https://www.sos-barnebyer.no/her-jobber-vi/europe/ukraine/"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>
+        <br /><br />
+        Gi din støtte til SOS barnebyer&nbsp;
+        <Link
+          href="https://www.sos-barnebyer.no/stott-barna/"
+          passHref
+          legacyBehavior
+        >
+          <a target="_blank" rel="noopener noreferrer">
+            <br />Klikk her
+          </a>
+        </Link>
         </p>
         </div>
     </div>
