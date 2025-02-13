@@ -13,7 +13,7 @@ const Support = () => {
           <h2 className="heading2 desktopHide">Støtt</h2>
           <UkraineRound/>
         </div>
-        <div id="join" className="w-full h-screen content">
+        <div id="join" className="w-full content">
           <Join />
         </div>
         

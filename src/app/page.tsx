@@ -12,7 +12,7 @@ export default function Home() {
           <Start />
         </div>
 
-        <div id="support" className="w-full h-screen content">
+        <div id="support" className="w-full content">
           <Support />
         </div>
 

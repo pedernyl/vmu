@@ -15,7 +15,7 @@ const Join = () => {
     <div className="joinContainer">
       <div className="blueBox colorBox">
         <strong>Røde Kors</strong><br />
-        <p className="mobileHidden tabletHidden">
+        <p className="">
         Røde Kors arbeid i Ukraina&nbsp; 
         <Link 
           href="https://www.rodekors.no/vart-arbeid/internasjonal/europa/ukraina"
@@ -41,7 +41,7 @@ const Join = () => {
       </div>
       <div className="yBox colorBox">
         <strong>Norsk Folkehjelp</strong><br />
-        <p className="mobileHidden tabletHidden">
+        <p className="">
           Norsk Folkehjelps arbeid i Ukraina
           &nbsp;
         <Link
@@ -68,7 +68,7 @@ const Join = () => {
       </div>
       <div className="blueBox colorBox">
         <strong>Kirkens nødhjelp</strong><br />
-        <p className="mobileHidden tabletHidden">
+        <p className="">
         Kirkens nødhjelps arbeid i Ukraina
           &nbsp;
         <Link
@@ -95,7 +95,7 @@ const Join = () => {
       </div>
       <div className="yBox colorBox">
         <strong>SOS Barnebyer</strong><br />
-        <p className="mobileHidden tabletHidden">
+        <p className="">
         SOS barnebyers arbeid i Ukraina
           &nbsp;
         <Link
